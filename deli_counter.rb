@@ -42,7 +42,6 @@
           puts "There is nobody waiting to be served!"
         elsif cx.length > 0 
         current_cx = cx.shift
-        
         puts "Currently serving #{current_cx}."
       end 
       end
