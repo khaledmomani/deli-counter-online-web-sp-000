@@ -38,7 +38,10 @@
       #should serve the first person in line and remove them from the queue (FAIL
       
       def now_serving(cx)
+        if cx.length == 0 
+          "There is nobody waiting to be served!"
+        elsif cx.length > 0 
         current_cx = cx.shift
         cx.shift
-        puts ""
+        puts "Now serving #{current_cx}"
       end
