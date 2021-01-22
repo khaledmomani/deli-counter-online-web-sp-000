@@ -36,3 +36,6 @@
       #should say that the line is empty (FAILED - 7)
     #there are people in line
       #should serve the first person in line and remove them from the queue (FAIL
+      
+      def now_serving(cx)
+        
