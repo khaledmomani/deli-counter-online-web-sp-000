@@ -43,6 +43,6 @@
         elsif cx.length > 0 
         current_cx = cx.shift
         cx.shift
-        puts "Now serving #{current_cx}"
+        puts "Currently serving #{current_cx}"
       end 
       end
