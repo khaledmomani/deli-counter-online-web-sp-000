@@ -39,7 +39,7 @@
       
       def now_serving(cx)
         if cx.length == 0 
-          "There is nobody waiting to be served!"
+          puts "There is nobody waiting to be served!"
         elsif cx.length > 0 
         current_cx = cx.shift
         cx.shift
