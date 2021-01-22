@@ -45,5 +45,4 @@
         cx.shift
         puts "Currently serving #{current_cx}."
       end 
-      cx.shift
       end
