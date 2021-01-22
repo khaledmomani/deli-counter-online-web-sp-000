@@ -39,3 +39,6 @@
       
       def now_serving(cx)
         current_cx = cx.shift
+        cx.shift
+        puts ""
+      end
